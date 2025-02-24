@@ -7,26 +7,26 @@ import ps from "./assets/images/Skills/ps.png";
 import reactjs from "./assets/images/Skills/react.png";
 import nodejs from "./assets/images/Skills/node.png";
 import python from "./assets/images/Skills/python.png";
-import Tailwind from "./assets/images/Skills/tailwindcss.png"
-import TypeScript from "./assets/images/Skills/typescript.png"
-import Nextjs from "./assets/images/Skills/nextjs.png"
-import Javascript from "./assets/images/Skills/javascript.png"
-import css3 from "./assets/images/Skills/css3.png"
-import HTML5 from "./assets/images/Skills/html5.png"
-import Bootstrap5 from "./assets/images/Skills/bootstrap.svg"
-import GitHub from "./assets/images/Skills/github.png"
-import MaterialUI from "./assets/images/Skills/materialUI.png"
-import Vercel from "./assets/images/Skills/vercel.png"
-import AntDesign from "./assets/images/Skills/ant-design.png"
+import Tailwind from "./assets/images/Skills/tailwindcss.png";
+import TypeScript from "./assets/images/Skills/typescript.png";
+import Nextjs from "./assets/images/Skills/nextjs.png";
+import Javascript from "./assets/images/Skills/javascript.png";
+import css3 from "./assets/images/Skills/css3.png";
+import HTML5 from "./assets/images/Skills/html5.png";
+import Bootstrap5 from "./assets/images/Skills/bootstrap.svg";
+import GitHub from "./assets/images/Skills/github.png";
+import MaterialUI from "./assets/images/Skills/materialUI.png";
+import Vercel from "./assets/images/Skills/vercel.png";
+import AntDesign from "./assets/images/Skills/ant-design.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
 import services_logo3 from "./assets/images/Services/logo3.png";
 
-// import project1 from "./assets/images/projects/img1.png";
-// import project2 from "./assets/images/projects/img2.png";
-// import project3 from "./assets/images/projects/img3.png";
-import person_project from "./assets/images/projects/person.png";
+import project1 from "./assets/images/Projects/img1.png";
+import project2 from "./assets/images/Projects/img2.png";
+import project3 from "./assets/images/Projects/img3.png";
+import person_project from "./assets/images/Projects/person.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
@@ -102,7 +102,7 @@ export const content = {
       {
         name: "Next js",
         // para: "Lorem ipsum text  dummy",
-        logo:  Nextjs,
+        logo: Nextjs,
       },
       {
         name: "TypeScript",
@@ -133,7 +133,8 @@ export const content = {
         name: "Github",
         // para: "Lorem ipsum text  dummy",
         logo: GitHub,
-      }, {
+      },
+      {
         name: "Material UI",
         // para: "Lorem ipsum text  dummy",
         logo: MaterialUI,
@@ -179,7 +180,7 @@ export const content = {
     project_content: [
       {
         title: "Gym Website",
-        // image: project1,
+        image: project1,
       },
       {
         title: "Social Media web",
