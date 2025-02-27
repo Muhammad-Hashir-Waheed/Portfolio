@@ -69,7 +69,7 @@ export const content = {
     },
   ],
   hero: {
-    title: "Web Developer",
+    title: "Software Engineer",
     firstName: "Muhammad Hashir",
     LastName: "Waheed",
     btnText: "Hire Me",
@@ -77,7 +77,7 @@ export const content = {
     hero_content: [
       {
         count: "3+",
-        text: "Years of Experinse in Web development",
+        text: "Years of Experience as an Software Engineer",
       },
       {
         count: "10+",
@@ -158,17 +158,17 @@ export const content = {
     service_content: [
       {
         title: "Web Development",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        para: "Crafting modern, responsive, and high-performance websites with clean code and seamless user experiences. Specializing in front-end development, API integrations, and optimized web solutions.",
         logo: services_logo1,
       },
       {
-        title: "ui / ux DESIGNING",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "App Development",
+        para: "Providing high-quality app development services with a focus on performance, scalability, and user experience. Specializing in building modern, responsive, and feature-rich applications tailored to your need.",
         logo: services_logo2,
       },
       {
-        title: "PhotoShop Editing",
-        para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+        title: "Network Engineering",
+        para: "Providing expert network engineering solutions, including design, implementation, and troubleshooting of secure and scalable network infrastructures. Ensuring optimal performance, reliability, and security for businesses of all sizes.",
         logo: services_logo3,
       },
     ],
@@ -198,25 +198,25 @@ export const content = {
     testimonials_content: [
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“Working with Muhammad Hashir was an absolute pleasure! They delivered a high-quality, responsive website that exceeded my expectations. Their attention to detail, problem-solving skills, and commitment to deadlines made the entire process smooth and stress-free. Highly recommended for anyone looking for a skilled and reliable web developer!”",
         img: avatar1,
         name: "JOHN DOE",
       },
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“He is a exceptional web developer with a keen eye for detail and a deep understanding of modern web technologies. They transformed my vision into a sleek, high-performing website with flawless functionality. Their professionalism, efficiency, and dedication to excellence made the entire experience seamless. I highly recommend them to anyone seeking top-tier web development services!”",
         img: avatar2,
         name: "Tom Alex",
       },
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“Muhammad Hashir Waheed delivered a stunning, high-performance website with precision and expertise. Their professionalism, attention to detail, and commitment to quality made the project a success. Highly recommended!”",
         img: avatar3,
         name: "Johnny",
       },
       {
         review:
-          "“In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstra”",
+          "“Hashir is a highly skilled app developer who brought my idea to life with precision and innovation. Their expertise in design, functionality, and user experience resulted in a seamless, high-performing app. Professional, efficient, and detail-oriented—I highly recommend their services!”",
         img: avatar4,
         name: "ROBBIN",
       },
@@ -245,9 +245,9 @@ export const content = {
         link: "https://wa.me/1234567890",
       },
       {
-        text: "codeaprogram",
+        text: "Muhammad Hashir Waheed",
         icon: BsInstagram,
-        link: "https://www.instagram.com/codeaprogram/",
+        link: "https://www.instagram.com/muhammad_hashir10/",
       },
     ],
   },
