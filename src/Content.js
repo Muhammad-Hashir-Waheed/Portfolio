@@ -227,7 +227,7 @@ export const content = {
     subtitle: "FOR YOUR PROJECTS",
     image1: Hireme_person,
     image2: Hireme_person2,
-    para: "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document elying on mean",
+    para: "Looking for a high-performing, visually stunning, and user-friendly website? I specialize in crafting modern, responsive websites tailored to your business needs. Let’s build something amazing that drives results—hire me today!",
     btnText: "Hire Me",
   },
   Contact: {
@@ -237,7 +237,7 @@ export const content = {
       {
         text: "hashirwaheed07@gmail.com",
         icon: GrMail,
-        link: "mailto:codeaprogram@gmail.com",
+        link: "mailto:hashirwaheed07@gmail.com",
       },
       {
         text: "+92 337 0741355",
