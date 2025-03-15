@@ -36,19 +36,31 @@ const Projects = () => {
             data-aos="fade-left"
             spaceBetween={20}
             modules={[Pagination]}
-            className="rounded-3xl pb-16 max-w-xs drop-shadow-primary self-start"
+            className="rounded-3xl pb-16 max-w-3xl drop-shadow-primary self-start"
           >
             {Projects.project_content.map((content, i) => (
               <SwiperSlide
                 key={i}
                 className="bg-white rounded-3xl p-5 border-b-8 border-[#FAF9FD] h-fit"
               >
-                <img src={content.image} alt="..." />
+                {/* Updated Image Container */}
+                <div className="w-full h-full overflow-hidden rounded-lg">
+                  <img
+                    src={content.image}
+                    className="w-full h-full"
+                    alt="..."
+                  />
+                </div>
                 <div className="flex flex-col gap-1 mt-2">
                   <h5 className="font-bold font-Poppins">{content.title}</h5>
-                  <button className="font-bold text-gray self-end">
+                  <a
+                    href={content.link}
+                    target="_blank" // Opens the link in a new tab
+                    rel="noopener noreferrer" // Recommended for security when using target="_blank"
+                    className="font-bold text-gray self-end"
+                  >
                     READ MORE
-                  </button>
+                  </a>
                 </div>
               </SwiperSlide>
             ))}

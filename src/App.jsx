@@ -15,7 +15,7 @@ import "aos/dist/aos.css";
 const App = () => {
   useEffect(() => {
     Aos.init({
-      duration: 1800,
+      duration: 1000,
       offset: 100,
       disable: "mobile",
     });
@@ -32,7 +32,7 @@ const App = () => {
       <Contact />
       <footer className="p-3 text-center">
         <h6 className="mb-3">Muhammad Hashir Waheed</h6>
-        <p>codeaprogram © All CopyRights Reserved 2022</p>
+        {/* <p>codeaprogram © All CopyRights Reserved 2022</p> */}
       </footer>
     </div>
   );

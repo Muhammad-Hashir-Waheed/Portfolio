@@ -21,11 +21,13 @@ import AntDesign from "./assets/images/Skills/ant-design.png";
 
 import services_logo1 from "./assets/images/Services/logo1.png";
 import services_logo2 from "./assets/images/Services/logo2.png";
-import services_logo3 from "./assets/images/Services/logo3.png";
+import services_logo3 from "./assets/images/Services/Problem-Solving.png";
 
-import project1 from "./assets/images/Projects/img1.png";
-import project2 from "./assets/images/Projects/img2.png";
-import project3 from "./assets/images/Projects/img3.png";
+import project1 from "./assets/images/Projects/DeinCare.png";
+import project2 from "./assets/images/Projects/BrightFit.png";
+import project3 from "./assets/images/Projects/VIBEH (HRMS).png";
+import project4 from "./assets/images/Projects/HealingPulseMedical1.png";
+import project5 from "./assets/images/Projects/VangauradMedical.png";
 import person_project from "./assets/images/Projects/person.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
@@ -157,18 +159,18 @@ export const content = {
     subtitle: "WHAT I OFFER",
     service_content: [
       {
-        title: "Web Development",
+        title: "FrontEnd Development",
         para: "Crafting modern, responsive, and high-performance websites with clean code and seamless user experiences. Specializing in front-end development, API integrations, and optimized web solutions.",
         logo: services_logo1,
       },
       {
-        title: "App Development",
-        para: "Providing high-quality app development services with a focus on performance, scalability, and user experience. Specializing in building modern, responsive, and feature-rich applications tailored to your need.",
+        title: "SEO & Deployment Optimization",
+        para: "Specialized in SEO optimization and web development, ensuring high-performing, search-engine-friendly websites. Let’s build a fast, responsive, and results-driven online presence for your business!",
         logo: services_logo2,
       },
       {
-        title: "Network Engineering",
-        para: "Providing expert network engineering solutions, including design, implementation, and troubleshooting of secure and scalable network infrastructures. Ensuring optimal performance, reliability, and security for businesses of all sizes.",
+        title: "Problem Solving & Bug Fixing",
+        para: "Specialized in bug fixing and problem-solving, ensuring smooth functionality and optimal performance for your website or application. Let me quickly identify and resolve issues to keep your project running flawlessly!",
         logo: services_logo3,
       },
     ],
@@ -179,16 +181,29 @@ export const content = {
     image: person_project,
     project_content: [
       {
-        title: "Gym Website",
+        title: "Dein Care Medical",
         image: project1,
+        link:"https://deincare.xodeactech.com/"
       },
       {
-        title: "Social Media web",
+        title: "Vanguard Medical",
+        image: project5,
+        link:"https://vanguardmsg.com/"
+      },
+      {
+        title: "BrightFit Referral System",
         image: project2,
+        link:"https://brightfit.xodeactech.com/"
       },
       {
-        title: "Creative Website",
+        title: "Healing Pulse Medical", 
+        image: project4,
+        link:"https://healingpulsemedical.com/"
+      },
+      {
+        title: "VIBEH (HRMS)",
         image: project3,
+        link:"https://vibeh.novitamedical.com/"
       },
     ],
   },
