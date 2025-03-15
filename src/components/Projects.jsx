@@ -55,8 +55,8 @@ const Projects = () => {
                   <h5 className="font-bold font-Poppins">{content.title}</h5>
                   <a
                     href={content.link}
-                    target="_blank" // Opens the link in a new tab
-                    rel="noopener noreferrer" // Recommended for security when using target="_blank"
+                    target="_blank" 
+                    rel="noopener noreferrer" 
                     className="font-bold text-gray self-end"
                   >
                     READ MORE
